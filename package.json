@@ -1,0 +1,25 @@
+{
+  "name": "oth-smart-contract",
+  "version": "1.0.0",
+  "description": "Deploy a compiled smart contract to the Hedera Testnet via the Hedera JS SDK, and call it from the command line.",
+  "main": "call.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanjunan1990/oth-smart-contract.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/tanjunan1990/oth-smart-contract/issues"
+  },
+  "homepage": "https://github.com/tanjunan1990/oth-smart-contract#readme",
+  "dependencies": {
+    "@hashgraph/sdk": "^2.81.0",
+    "dotenv": "^17.4.2"
+  }
+}
