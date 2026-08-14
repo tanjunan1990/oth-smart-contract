@@ -38,7 +38,7 @@ Example — generate a voting window, then deploy the `Voting` contract with it:
 ```
 node -e "const n=Math.floor(Date.now()/1000); console.log('start', n+600, 'end', n+86400)"
 
-node deploy.js ./build/Voting.bin \
+node deploy.js ./build/Ballot.bin \
   --arg-string-array "Pizza,Sushi,Tacos" \
   --arg-address-array "" \
   --arg-uint256 <start> \
